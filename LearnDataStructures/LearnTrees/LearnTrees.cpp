@@ -69,13 +69,13 @@ public:
 	~BTree()
 	{
 		DestroyTree();
-	}
+	} 
 };
 
 // 3 cases; 1- node is terminal node, 2- node has one child, 3- node has 2 child
 bool BTree::remove(int val)
 {
-
+	return false;
 }
 
 int BTree::findLargestNode(BTreeNode* node)
